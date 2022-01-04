@@ -1,0 +1,94 @@
+.nicec {
+	background-color: #003300;
+}
+
+.front-page {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)),
+		url("https://unsplash.com/photos/ZuV4bPalclY/download");
+	background-position: center;
+	min-height: 90vh;
+}
+
+.sp {
+	min-height: 70vh;
+	background-color: #ecfbf9;
+}
+
+.tp {
+	min-height: 70vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Pictures/Cool.png");
+	background-position: static;
+	background-size: cover;
+	color: #f9f9f9;
+}
+
+.fop {
+	min-height: 50vh;
+}
+
+.fp {
+	min-height: 50vh;
+	background-color: #d5d9df;
+}
+
+.cp {
+	min-height: 50vh;
+	background-color: #fafaf7;
+}
+
+@media (min-width: 1350px) {
+	.i1 {
+		padding: 0 0 0 50px;
+	}
+}
+
+@media (min-width: 1350px) {
+	.i2 {
+		padding: 0 50px 0 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.b {
+		display: none;
+	}
+}
+
+.border {
+	height: 1px;
+	background-color: black;
+}
+
+@media (min-width: 769px) {
+	hr {
+		display: none;
+	}
+}
+
+@media (max-width: 1140px) and (min-width: 769px) {
+	.disappear1 {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.disappear2 {
+		display: none;
+	}
+}
+
+@media (min-width: 1141px) {
+	.disappear2 {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.smallt {
+		margin: 20px 0;
+	}
+}
+
+.fcool {
+	background-color: rgb(62, 60, 71);
+}
